@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1352169713454552}
+  m_IsPrefabAsset: 1
+--- !u!1 &1352169713454552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4257810605545946}
+  - component: {fileID: 114124305973261032}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4257810605545946
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352169713454552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114124305973261032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1352169713454552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34605f0597004b0091652fb399b846f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ambient1
+    clip: {fileID: 8300000, guid: 7302739de34e645e79f975e1e12e1291, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: walk
+    clip: {fileID: 8300000, guid: 710bc39fc12104cdda8111adab6a6850, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: walk2
+    clip: {fileID: 8300000, guid: 710bc39fc12104cdda8111adab6a6850, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: slide
+    clip: {fileID: 8300000, guid: b199c1ad5301b4a00bed3b7267de6394, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: openEye
+    clip: {fileID: 8300000, guid: 714d334e8cc6741ca8cf53ad0d970750, type: 3}
+    volume: 0.8
+    pitch: 0.5
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: sex1
+    clip: {fileID: 8300000, guid: d8f0edea4101a43f9ad3a208bc039672, type: 3}
+    volume: 0.5
+    pitch: 1.1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: sex2
+    clip: {fileID: 8300000, guid: a158ce5fa246f44f3a35657318061a1b, type: 3}
+    volume: 0.8
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: cave-ambient
+    clip: {fileID: 8300000, guid: 7586ca87e98e94f65b88509b7d5978e1, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: panda2footstep1
+    clip: {fileID: 8300000, guid: 5cd85b6bdaf0440e58595331e698af6c, type: 3}
+    volume: 0.3
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: grow
+    clip: {fileID: 8300000, guid: e45ed921f301e489cb4d128a60832944, type: 3}
+    volume: 0.4
+    pitch: 2.01
+    PlayOnAwake: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: panda2footstep2
+    clip: {fileID: 8300000, guid: 5cd85b6bdaf0440e58595331e698af6c, type: 3}
+    volume: 0.3
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: wave
+    clip: {fileID: 8300000, guid: 1922f6728438f4d04902fabf4401c896, type: 3}
+    volume: 1
+    pitch: 0.75
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: set
+    clip: {fileID: 8300000, guid: 63ed505eb13c3445a9388a92b554247f, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: falling
+    clip: {fileID: 8300000, guid: c90a6299a95d0449690f6d02cb58ff81, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: babyWalk
+    clip: {fileID: 8300000, guid: aa3c29818d59348ed98c110e271ae564, type: 3}
+    volume: 0.8
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: click
+    clip: {fileID: 8300000, guid: dfc301928e8a34b7a81e90900d8aabc5, type: 3}
+    volume: 0.5
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: wear
+    clip: {fileID: 8300000, guid: 516413926e90c45d28c5802353a166b7, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: kiss
+    clip: {fileID: 8300000, guid: 327b683b8f9b4418c8e7074303c16ef6, type: 3}
+    volume: 0.8
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: inPool
+    clip: {fileID: 8300000, guid: 47285dcf50fd444f888ba26cea496567, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: outPool
+    clip: {fileID: 8300000, guid: b9e2b8d6652714113853c228a7c26dca, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Scene4
+    clip: {fileID: 8300000, guid: 7750c805254714ccbb67160e5726a536, type: 3}
+    volume: 1
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: sex3
+    clip: {fileID: 8300000, guid: 4da9b745e438349039f34de9afe9621e, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: sex4
+    clip: {fileID: 8300000, guid: 9fdb685285eec44f4a31faabd990371b, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Scene1
+    clip: {fileID: 8300000, guid: 7aef3c3a7b28948d08db66623dbf346d, type: 3}
+    volume: 0.5
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Scene2
+    clip: {fileID: 8300000, guid: 4da4fe2db0119429e86760f659905559, type: 3}
+    volume: 0.5
+    pitch: 1
+    PlayOnAwake: 0
+    loop: 0
+    source: {fileID: 0}
